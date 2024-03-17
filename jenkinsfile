@@ -3,7 +3,7 @@ pipeline {
     registry = "saadaboufariss/tp4"
     registryCredential = 'saad'
     dockerImage = ''
-    gitBranch = 'main'
+    gitBranch = 'master'
   }
   agent any
   stages {
